@@ -1,0 +1,16 @@
+{
+  "name": "image-compressor",
+  "version": "1.0.0",
+  "description": "This is a desktop application to shrink the size of image.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/surajkarki66/image-compressor.git",
+  "author": "surajkarki66 <suraj.karki500@protonmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "electron": "^15.0.0"
+  }
+}
