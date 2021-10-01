@@ -1,10 +1,11 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, Menu } = require("electron");
 
 // Set platform
 process.env.NODE_ENV = "development";
 
 const isDev = process.env.NODE_ENV !== "production" ? true : false;
 const isLinux = process.platform === "linux" ? true : false;
+const isMac = process.platform === "darwin" ? true : false;
 
 let mainWindow;
 function createMainWindow() {
@@ -19,7 +20,26 @@ function createMainWindow() {
   mainWindow.webContents.openDevTools();
 }
 
-app.on("ready", createMainWindow);
+app.on("ready", () => {
+  createMainWindow();
+  const mainMenu = Menu.buildFromTemplate(menu);
+  Menu.setApplicationMenu(mainMenu);
+  mainWindow.on("ready", () => (mainWindow = null));
+});
+
+// menu
+const menu = [
+  ...(isMac ? [{ role: "appMenu" }] : []),
+  {
+    label: "File",
+    submenu: [
+      {
+        label: "Quit",
+        click: () => app.quit(),
+      },
+    ],
+  },
+];
 
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
