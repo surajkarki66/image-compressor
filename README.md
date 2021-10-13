@@ -1,4 +1,4 @@
-# image-compressor
+# ImageCompressor
 
 This is a desktop application to shrink the size of image.
 
