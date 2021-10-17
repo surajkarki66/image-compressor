@@ -112,7 +112,7 @@ async function shrinkImage({ imgPath, quality, dest }) {
       ],
     });
     log.info(files);
-    // shell.openPath(dest);
+    shell.openPath(dest);
     mainWindow.webContents.send("image:done");
   } catch (error) {
     log.error(error);
@@ -122,6 +122,7 @@ app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
     app.quit();
   }
+  yyy;
 });
 
 app.on("activate", () => {
