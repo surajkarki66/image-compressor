@@ -97,7 +97,7 @@ const menu = [
 ];
 
 ipcMain.on("image:minimize", (e, options) => {
-  options.dest = path.join(os.homedir(), "imageshrink");
+  options.dest = path.join(os.homedir(), "imagecompressor");
   shrinkImage(options);
 });
 
