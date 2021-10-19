@@ -19,7 +19,11 @@ This is a desktop application to shrink the size of image.
 ```
 
 
-## Building app for different platforms
+## Downloading the software for different operating systems
+You can download binary or executable of the software from github releases at the right side of this page for different operating systems.
+
+
+## Building the software for different operating systems
 
 ### Step 1: Install all dependencies
 
@@ -35,7 +39,7 @@ This is a desktop application to shrink the size of image.
   $ npm i
 ```
 
-### Step 2: Package the app
+### Step 2: Package the software
 
 #### Using yarn
 
@@ -77,5 +81,4 @@ This is a desktop application to shrink the size of image.
  $ npm run package-win
 ```
 
-`Note: After building ,the build files will be stored in release-builds directory. Also you can download binary or exe of the software from github releases for particular operating system`
-
+`Note: After building ,the build files will be stored in release-builds directory.`
