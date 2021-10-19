@@ -19,11 +19,11 @@ This is a desktop application to shrink the size of image.
 ```
 
 
-## Downloading the software for different operating systems
-You can download binary or executable of the software from github releases at the right side of this page for different operating systems.
+## Downloading the application for different operating systems
+You can download binary or executable of the application from github releases at the right side of this page for different operating systems.
 
 
-## Building the software for different operating systems
+## Building the application for different operating systems
 
 ### Step 1: Install all dependencies
 
@@ -39,7 +39,7 @@ You can download binary or executable of the software from github releases at th
   $ npm i
 ```
 
-### Step 2: Package the software
+### Step 2: Package the application
 
 #### Using yarn
 
