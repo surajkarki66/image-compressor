@@ -77,4 +77,5 @@ This is a desktop application to shrink the size of image.
  $ npm run package-win
 ```
 
-After building ,the build files will be stored in release-builds directory.
+`Note: After building ,the build files will be stored in release-builds directory. Also you can download binary or exe of the software from github releases for particular operating system`
+
