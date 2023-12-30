@@ -1,26 +1,26 @@
 # ImageCompressor
 
-This is a desktop application to shrink the size of image.
+This is a desktop application to shrink the size of the image.
 
 ## Running locally
 
 ### Using yarn
 
 ```bash
-  $ yarn install
-  $ yarn start
+   yarn install
+   yarn start
 ```
 
 ### Using npm
 
 ```bash
-  $ npm i
-  $ npm start
+   npm i
+   npm start
 ```
 
 
 ## Downloading the application for different operating systems
-You can download binary or executable of the application from github releases at the right side of this page for different operating systems.
+You can download the binary or executable of the application from GitHub releases at the right side of this page for different operating systems.
 
 
 ## Building the application for different operating systems
@@ -30,13 +30,13 @@ You can download binary or executable of the application from github releases at
 #### Using yarn
 
 ```bash
-  $ yarn install
+   yarn install
 ```
 
 #### Using npm
 
 ```bash
-  $ npm i
+   npm i
 ```
 
 ### Step 2: Package the application
@@ -46,19 +46,19 @@ You can download binary or executable of the application from github releases at
 ##### For Linux:
 
 ```bash
-  $ yarn run package-linux
+   yarn run package-linux
 ```
 
 ##### For MacOS:
 
 ```bash
-  $ yarn run package-mac
+   yarn run package-mac
 ```
 
 ##### For Windows:
 
 ```bash
- $ yarn run package-win
+   yarn run package-win
 ```
 
 #### Using npm
@@ -66,19 +66,19 @@ You can download binary or executable of the application from github releases at
 ##### For Linux:
 
 ```bash
-  $ npm run package-linux
+   npm run package-linux
 ```
 
 ##### For MacOS:
 
 ```bash
-  $ npm run package-mac
+   npm run package-mac
 ```
 
 ##### For Windows:
 
 ```bash
- $ npm run package-win
+  npm run package-win
 ```
 
-`Note: After building ,the build files will be stored in release-builds directory.`
+`Note: After building,the build files will be stored in the release-builds directory.`
