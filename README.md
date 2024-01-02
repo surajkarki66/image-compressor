@@ -3,7 +3,10 @@
 This is a desktop application to shrink the size of the image.
 
 ## Running locally
-
+Clone the repository
+```bash
+   git clone https://github.com/surajkarki66/image-compressor
+```
 ### Using yarn
 
 ```bash
@@ -24,7 +27,10 @@ You can download the binary or executable of the application from GitHub release
 
 
 ## Building the application for different operating systems
-
+### Step 0: Clone the repository
+```bash
+   git clone https://github.com/surajkarki66/image-compressor
+```
 ### Step 1: Install all dependencies
 
 #### Using yarn
